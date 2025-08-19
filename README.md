@@ -1,18 +1,14 @@
-👋 안녕하세요! 저는 개발자 **"sinyoung0403"** 입니다.
-
-
-# 👋 Hi, I’m 신영 (sinyoung0403)
+# 👋 안녕하세요! 저는 개발자 **"sinyoung0403"** 입니다.
 
 백엔드 개발자 지망생으로 **Java + Spring Boot**를 중심으로 학습하고, 작은 서비스들을 직접 만들어보며 운영 관점까지 고민합니다.  
-도메인 모델링—트랜잭션—예외 처리—문서화(포스트맨/스웨거)—테스트—배포 순으로 “작게 만들어 끝까지 밀어보기”를 즐깁니다.
 
 ---
 
 ## 🧰 Tech & Interests
 - **Backend**: Java, Spring Boot, JPA/Hibernate, Spring Security, JWT, Validation  
-- **DB**: MySQL (ERD/인덱스/제약), JDBC/JPA 비교  
+- **DB**: MySQL, JPA 
 - **Infra/Tools**: Gradle, Git/GitHub, Docker(학습 중)  
-- **What I’m exploring**: 도메인 주도 설계, 성능/동시성 이슈, 캐시/Redis, 메시징
+- **What I’m exploring**: 도메인 주도 설계, 성능/동시성 이슈, 캐시/Redis, 알
 
 ---
 
@@ -32,27 +28,47 @@
 
 ---
 
-### 3) FakebookProject — SNS 백엔드 ( 팀ㅣ팀장 )
+### 3) Todo Simple ( 개인 )
+
+🔗 Repo & Docs : https://github.com/sinyoung0403/Todo_simple
+
+---
+
+### 3) Cluvr Platform — 팀 프로젝트 (QuestMarkTeamㅣ부팀장)
+**API 서버 (`cluvr-api`)**와 **배치 서버 (`cluvr-batch`)**에 참여하여 사용자가 클럽(스터디, 프로젝트, 커뮤니티 등)을 생성하고 소통하도록 돕는 **Cluvr 플랫폼** 개발에 기여했습니다.  
+플랫폼은 독립적인 역할을 가진 서버들(cohesive microservices architecture)로 구성되어 있으며, 서로 협업하며 통합되어 작동합니다. 
+🔗 Repo & Docs: :[contentReference[oaicite:2]{index=2}](https://github.com/QuestMarkTeam)
+
+####  - API 서버 (`cluvr-api`)
+- 클럽 생성/참여, TIL 작성, 커뮤니티 게시판 기능 제공  
+- 사용자 프로필, 점수 시스템(클로버), 내공(젬) 연동 포함  
+- Java 17 + Spring Boot 활용 :contentReference[oaicite:3]{index=3}
+🔗 Repo & Docs: [contentReference[oaicite:2]{index=2}](https://github.com/QuestMarkTeam/cluvr-api)
+
+####  - 배치 서버 (`cluvr-batch`)
+- OpenAI 기반 TIL 피드백 분석, 게시판 통계 및 조회수 적재, 클로버/젬 로그 처리 등 **정기적인 백그라운드 작업** 담당  
+- Spring Batch + MongoDB (임시 캐시), OpenAI API 기반 구현  
+- Java 기반 배치 처리 시스템으로 성능과 안정성 확보 :contentReference[oaicite:4]{index=4}
+🔗 Repo & Docs: [contentReference[oaicite:2]{index=2}](https://github.com/QuestMarkTeam/cluvr-batch)
+
+---
+
+### 4) FakebookProject — SNS 백엔드 ( 기범이와 I들ㅣ팀장 )
 JWT 기반 인증/인가, 친구 요청/수락/거절, 게시글·댓글, 좋아요 등 **SNS 핵심 기능**을 구현했습니다.
 ERD/패키지 구조/기능 명세가 README에 정리되어 있습니다.
-🔗 Repo & Docs: `FakebookProject` (README에 기간/기술스택/기능 상세) :contentReference[oaicite:3]{index=3}
+🔗 Repo & Docs: `FakebookProject` (README에 기간/기술스택/기능 상세) : [contentReference[oaicite:3]{index=3}](https://github.com/sinyoung0403/FakebookProject)
 
-맡은 역할
+#### - 맡은 역할
 - 도메인: 게시글 및 댓글의 좋아요 기능 구현 :contentReference[oaicite:5]{index=5}
 - 문서화: 기능 명세/요구사항을 README에 체계화 :contentReference[oaicite:6]{index=6}
 
 ---
 
 
-### 5) Dotori Webpage — 팀 협업 웹앱 ( 팀ㅣ팀장 )
+### 5) Dotori Webpage — 팀 협업 웹앱 ( 도토리ㅣ팀장 )
 Firebase 기반 **실시간 데이터 처리**로 방명록/데일리 스크럼/취미 관리 기능 제공합니다. GitHub Pages로 배포 링크 제공되어 있습니다.
-→ UI 스크린샷/데이터 모델/REST API 흐름이 README에 자세히 정리했습니다. :contentReference[oaicite:9]{index=9}
-
----
-
-## 🗂️ More Repos
-- `PracticeLayer`, `PracticeMemo`, `KioskProject`, `CalculatorProject` 등 기초기능/레이어드 아키텍처 연습용 저장소들.  
-- `spring-plus`, `spring-advanced`는 과제 Fork로 스프링 심화 학습 트랙 기록. :contentReference[oaicite:11]{index=11}
+🔗 Repo & Docs: UI 스크린샷/데이터 모델/REST API 흐름이 README에 자세히 정리했습니다. :[contentReference[oaicite:9]{index=9}](https://github.com/sinyoung0403/DotoriWebpage)
+🔗 베포 링크: https://sinyoung0403.github.io/DotoriWebpage/
 
 ---
 
