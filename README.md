@@ -17,7 +17,7 @@
 ### 1) Shopping Order API ( 개인 )
 쇼핑몰 **주문/상품** 백엔드. 패키징/빌드부터 이슈 트래킹까지 프로젝트 형태로 구성 중입니다. *(진행형)*  
 → 코드/커밋 로그 위주로 개선 이력 관리. 추후 Swagger/테스트케이스/아키텍처 문서를 확장 예정.  
-🔗 Repo: `shopping-order-api` :contentReference[oaicite:1]{index=1}
+🔗 Repo: https://github.com/sinyoung0403/shopping-order-api
 
 ---
 
